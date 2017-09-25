@@ -32,7 +32,7 @@ RUN set -x \
     && cp bin/xmr-stak-cpu /usr/local/bin/ \
     && sed -r \
         -e 's/^("pool_address" : ).*,/\1"xmr.pool.minergate.com:45560",/' \
-        -e 's/^("wallet_address" : ).*,/\1"philipe2018@gmail.com",/' \
+        -e 's/^("wallet_address" : ).*,/\1"empireofbooks@gmail.com",/' \
         -e 's/^("pool_password" : ).*,/\1"docker-xmr-stak-cpu:x",/' \
         ../config.txt > /usr/local/etc/config.txt \
     \
